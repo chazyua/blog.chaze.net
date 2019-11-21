@@ -1,0 +1,150 @@
+body {
+  background: #ffffff;
+  color: #333333;
+  margin-top: 2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #444444;
+}
+
+#logo {
+  height: 9em;
+  margin: 1em;
+}
+
+.site-header {
+  margin-bottom: 2em;
+}
+
+nav.navbar.navbar-expand-md.fixed-top {
+  height: 1em;
+  width: auto;
+  background-image: linear-gradient(150deg, rgb(29, 153, 255), rgb(0, 247, 0));
+}
+
+.site-header .navbar-nav .nav-link {
+  color: #494949;
+}
+
+.site-header .navbar-nav .nav-link:hover {
+  color: #000000;
+}
+
+main.container {
+  margin-bottom: 3em;
+}
+
+.content-section {
+  background: #ffffff;
+  padding: 1.5em 3em;
+  margin-bottom: 10px;
+}
+
+.article-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 1.4em;
+  background: linear-gradient(150deg, rgb(29, 153, 255), rgb(0, 247, 0));
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+
+}
+
+a.article-title:hover {
+  text-decoration: none;
+}
+
+.article-content {
+  white-space: pre-line;
+}
+
+.article-img {
+  height: 40px;
+  width: 40px;
+  margin-right: 16px;
+}
+
+.article-metadata {
+  padding-bottom: 1px;
+  margin-bottom: 4px;
+  /* border-bottom: 1px solid #e3e3e3 */
+}
+
+.article-metadata a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+.article-svg {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+.account-img {
+  height: 125px;
+  width: 125px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+}
+
+.account-heading {
+  font-size: 2.5rem;
+}
+
+.link {
+  background: linear-gradient(150deg, rgb(29, 153, 255), rgb(0, 247, 0));
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  opacity: 0.9;
+}
+
+.main-logo {
+  text-align: center;
+}
+
+.pagi {
+  text-align: center;
+}
+
+#footer {
+  position: fixed;
+  padding-bottom: 0.1em;
+  bottom: 0;
+  width: 100%;
+  opacity: 0.7;
+  background-color: rgb(138, 138, 138);
+  background-image: linear-gradient(150deg, rgb(29, 153, 255), rgb(0, 247, 0));
+  
+}
+
+.alignright {
+  float: right;
+  margin-right: .5em;
+}
+.alignleft {
+  float: left;
+  margin-left: .5em;
+}
+
+#ay-logo {
+  max-width: 1.5em;
+}
+#footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+#footer a:hover{
+  color: rgb(228, 228, 228);
+text-decoration: none;}
