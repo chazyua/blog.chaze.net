@@ -1,6 +1,8 @@
 todolist.txt
+site.db_
 site.db
 Pipfile.lock
+requirements.txt
 
 
 ### Python ###
